@@ -3,13 +3,16 @@
   <head>
     <title><%= title %></title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/bootstrap-responsive.css' />
+    <link rel='stylesheet' href='/stylesheets/bootstrap.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+
     <div ng-view></div>
   </body>
   <script src="/javascripts/vendors/angular.js"></script>
+  <script src="/javascripts/vendors/angular-bootstrap.js"></script>
   <script src="/javascripts/main.js"></script>
+  <script src="/javascripts/vendors/main_pg.js"></script>
   <script src="/javascripts/services.js"></script>
 </html>

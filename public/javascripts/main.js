@@ -13,7 +13,7 @@ var sampleApp = angular.module("myApp",[])
          $routeProvider
              .when('/',{
                templateUrl:'views/main.html',
-               controller:'candidateController'
+               controller:'main_pg'
              })
 
 
