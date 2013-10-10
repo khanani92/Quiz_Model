@@ -15,7 +15,15 @@ var sampleApp = angular.module("myApp",[])
                templateUrl:'views/main.html',
                controller:'main_pg'
              })
+             .when('/signin',{
+                 templateUrl:'views/signin.html',
+                 controller:'sign_in'
+             })
 
+             .when('/register',{
+                 templateUrl:'views/register.html',
+                 controller:'register'
+             })
 
              .when('/error',{
                  templateUrl:'views/error.html'
@@ -26,6 +34,13 @@ var sampleApp = angular.module("myApp",[])
 
        }]);//Config
 
+sampleApp.controller('navController',function($scope,$location){
+
+    $scope.go = function (path){
+        $location.path(path);
+    }
+
+});
 
 
 /*

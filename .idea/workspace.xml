@@ -3,18 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/main.html" afterPath="$PROJECT_DIR$/public/views/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/vendors/main_pg.js" afterPath="$PROJECT_DIR$/public/javascripts/vendors/main_pg.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Quiz_Model.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381415058886" ignored="false" />
-    <file path="/main.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381422145836" ignored="false" />
-    <file path="/index.ejs" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381421700390" ignored="false" />
+    <file path="/main.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381428700296" ignored="false" />
+    <file path="/index.ejs" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381430127176" ignored="false" />
     <file path="$USER_HOME$/Downloads/code_lib/app-showcase-master/app-showcase-master/views/index.ejs" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381415840331" ignored="false" />
     <file path="$PROJECT_DIR$/../../angular_practice/public/views/candidate.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381421476446" ignored="false" />
+    <file path="/main.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381426235214" ignored="false" />
+    <file path="/main_pg.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381426591730" ignored="false" />
+    <file path="/signup.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381428513158" ignored="false" />
+    <file path="/signin.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381430155855" ignored="false" />
+    <file path="/register.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381430281543" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,28 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ejs" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="2" selection-start="297" selection-end="297" vertical-scroll-proportion="0.47663552">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+            <state line="24" column="29" selection-start="661" selection-end="669" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="68" column="58" selection-start="3365" selection-end="3365" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
           </provider>
@@ -73,7 +71,7 @@
       <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="4" selection-start="7" selection-end="7" vertical-scroll-proportion="-1.3076923">
+            <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="-1.3076923">
               <folding />
             </state>
           </provider>
@@ -82,9 +80,47 @@
       <file leaf-file-name="main_pg.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/main_pg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="46" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+            <state line="14" column="45" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#161#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signin.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/signin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="14" selection-start="11" selection-end="567" vertical-scroll-proportion="-7.1923075">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signin_pg.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/signin_pg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="3" selection-start="0" selection-end="165" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/views/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="62" selection-start="480" selection-end="480" vertical-scroll-proportion="0.3707165">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register_pg.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/register_pg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#167#329#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -109,16 +145,23 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/public/javascripts/services.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/javascripts/vendors/main_pg.js" />
-        <option value="$PROJECT_DIR$/public/views/main.html" />
+        <option value="$PROJECT_DIR$/public/views/signup.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/vendors/signup_pg.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/vendors/signin_pg.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
+        <option value="$PROJECT_DIR$/public/views/main.html" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/public/views/signin.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/vendors/register_pg.js" />
+        <option value="$PROJECT_DIR$/public/views/register.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
+    <option name="x" value="2" />
     <option name="y" value="1" />
     <option name="width" value="1364" />
     <option name="height" value="726" />
@@ -179,6 +222,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quiz_Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Quiz_Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,10 +359,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors" />
       <recent name="C:\Cloud_app\reps\Quiz_Model\public\img" />
       <recent name="C:\Cloud_app\reps\Quiz_Model\public\views" />
       <recent name="C:\Cloud_app\reps\Quiz_Model\public\stylesheets" />
-      <recent name="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors" />
       <recent name="C:\Cloud_app\reps\Quiz_Model\public\javascripts" />
     </key>
   </component>
@@ -319,6 +376,13 @@
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="1">
@@ -335,7 +399,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <frame x="2" y="1" width="1364" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -417,63 +481,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="50" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="50" selection-start="408" selection-end="408" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery-1.10.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/angular-bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -488,16 +495,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/bootstrap-typeahead.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.048991356">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="42" selection-start="105" selection-end="105" vertical-scroll-proportion="0.2939481">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/angular-resource.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="1.4899136">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/main_pg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+        <state line="14" column="45" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#161#0" expanded="false" />
           </folding>
@@ -506,21 +548,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="7" selection-end="7" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="7" selection-end="7" vertical-scroll-proportion="-1.3076923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="2" selection-start="297" selection-end="297" vertical-scroll-proportion="0.47663552">
+        <state line="68" column="58" selection-start="3365" selection-end="3365" vertical-scroll-proportion="-9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/signin_pg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="0" selection-end="165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="29" selection-start="661" selection-end="669" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="11" selection-end="567" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/register_pg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#167#329#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="62" selection-start="480" selection-end="480" vertical-scroll-proportion="0.3707165">
           <folding />
         </state>
       </provider>
