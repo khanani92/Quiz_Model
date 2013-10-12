@@ -1,9 +1,9 @@
 sampleApp.controller('register',function($scope,$location,$http,userRegister){
     $scope.message = "Register";
-     //  $scope.register = userRegister.UserRegister();
+       $scope.register = userRegister.UserRegister();
    // var u_name = $scope.register.u_name;
     //console.log($scope.register.u_name);
-
+    /*
      var register_data = {u_name:null,email:null,pass:null,re_pass:null};
     $scope.register.UserRegister= function(){
 
@@ -40,7 +40,7 @@ sampleApp.controller('register',function($scope,$location,$http,userRegister){
 
            }//else for Field checking and sending data
     }//UserRegister
-
+   */
     $scope.$watch('register.u_name + register.email+ register.pass + register.re_pass',getData)
     $scope.go = function (path){
         $location.path(path);
