@@ -1,10 +1,12 @@
 <div>
-    <form class="form-signin">
+    <form name="addUserForm"  class="form-signin" ng-submit="register.UserRegister()">
         <h2 class="form-signin-heading">Please Register</h2>
-        <input type="text" class="input-block-level" placeholder="Name">
-        <input type="text" class="input-block-level" placeholder="Email address">
-        <input type="password" class="input-block-level" placeholder="Password">
-        <input type="password" class="input-block-level" placeholder="Re-Password">
-        <button class="btn btn-large btn-success" ng-click="go('/register')" >Register</button>
+        <input type="text" class="input-block-level" placeholder="Name" ng-model="register.u_name"
+               ng-minlength="4" required>
+        <input type="text" class="input-block-level" placeholder="Email address" ng-model="register.email" ng-minlength="5" ng-pattern="/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/" required>
+        <input type="password" class="input-block-level" placeholder="Password" ng-model="register.pass" ng-minlength="5" required>
+        <input type="password" class="input-block-level" placeholder="Re-Password" ng-model="register.re_pass" ng-minlength="5" ng-change="passCompare()" required>
+        <p style="color: red; font-size:13px ">{{register.error}}</p>
+        <button class="btn btn-large btn-success" type="submit" ng-disabled="!addUserForm.$valid">Register</button>
     </form>
 </div>
