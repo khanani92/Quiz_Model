@@ -1,6 +1,6 @@
 <div>
     <form name="addUserForm"  class="form-signin" ng-submit="register.checkSendData()">
-        <h2 class="form-signin-heading">Please Register</h2>
+            <h2 class="form-signin-heading">Please Register</h2>
         <input type="text" class="input-block-level" placeholder="Name" ng-model="register.u_name"
                ng-minlength="4" required>
         <input type="text" class="input-block-level" placeholder="Email address" ng-model="register.email" ng-minlength="5" ng-pattern="/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/" required>

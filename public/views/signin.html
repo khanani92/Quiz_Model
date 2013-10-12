@@ -1,13 +1,14 @@
 <div>
 
-    <form class="form-signin">
+    <form class="form-signin" name="addUserForm" ng-submit="login.checkSendData()">
         <h2 class="form-signin-heading">Please Sign In</h2>
-        <input type="text" class="input-block-level" placeholder="Email address">
-        <input type="password" class="input-block-level" placeholder="Password">
+        <input type="text" class="input-block-level" placeholder="Email address" ng-model="login.email" ng-minlength="5" ng-pattern="/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/" required>
+        <input type="password" class="input-block-level" placeholder="Password" ng-model="login.pass" ng-minlength="5" required>
         <label class="checkbox">
             <input type="checkbox" value="remember-me"> Remember me
         </label>
-        <button class="btn btn-large btn-success" type="submit">Sign in</button>
+        <p style="color: red; font-size:13px ">{{login.error}}</p>
+        <button class="btn btn-large btn-success" type="submit" ng-disabled="!addUserForm.$valid">Sign in</button>
         <button class="btn btn-large btn-primary" ng-click="go('/register')" >Register</button>
     </form>
 

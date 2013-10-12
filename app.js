@@ -28,7 +28,9 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.post('/regStudent',routes.regStudent)
+app.post('/regUser',routes.regUser)
+app.post('/loginStudent',routes.loginStudent)
+
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
