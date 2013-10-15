@@ -34,8 +34,9 @@ sampleApp.factory('userRegister',function($http,$location){
 
                 }).success(function(res){
                         console.log("res:"+res);
+                         register_data.message = "Congratulation!! You are Successfully Registered  "
 
-                        $location.path('/signin')
+                       $location.path('/signin');
                         //console.log("registered")
 
                     }).error(function(){ alert("Error")   ; });}
@@ -77,9 +78,23 @@ sampleApp.factory('userLogin',function($http,$location){
                     data:{email:email,pass:pass},
                     method:"POST"
 
-                }).success(function(res){
-                        console.log("res:"+res);
+                }).success(function(res,textStatus){
+                        console.log("res:"+res.u_name+res.email);
+                        if(res != 'error'){
+                            var u_id =  res._id;
 
+                            sessionStorage.setItem('id',u_id);
+                            //console.log(sessionStorage.id);
+
+                        }else{
+                            login_data.error= "Your Email or Password is wrong"
+                            console.log("record not found")
+                        }
+                        //alert(textStatus);// succes
+                       /* alert(jqXHR.status);// 200
+                        alert(jqXHR.statusText);// ok
+                        alert(data);
+                         */
                         //$location.path('/')
                         //console.log("registered")
 

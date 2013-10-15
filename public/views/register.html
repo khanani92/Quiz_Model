@@ -8,5 +8,7 @@
         <input type="password" class="input-block-level" placeholder="Re-Password" ng-model="register.re_pass" ng-minlength="5" ng-change="passCompare()" required>
         <p style="color: red; font-size:13px ">{{register.error}}</p>
         <button class="btn btn-large btn-success" type="submit" ng-disabled="!addUserForm.$valid">Register</button>
+
     </form>
+    <div class="messages">{{register.message}}</div>
 </div>
