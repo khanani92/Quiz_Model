@@ -36,7 +36,8 @@
                       </li>
                   </ul>
 
-                  <button ng-click="go('/signin')" class="navbar-form pull-right btn">Sign in</button>
+                  <button ng-show="inBtn" ng-click="go('/signin')" class="navbar-form pull-right btn">Sign in</button>
+                  <button ng-show="outBtn" ng-click="go('/signout')" class="navbar-form pull-right btn">Sign out</button>
 
 
               </div><!--/.nav-collapse -->
@@ -66,6 +67,7 @@
   <script src="/javascripts/vendors/main_pg.js"></script>
   <script src="/javascripts/vendors/signin_pg.js"></script>
   <script src="/javascripts/vendors/register_pg.js"></script>
+  <script src="/javascripts/vendors/signout_pg.js"></script>
 
   <script src="/javascripts/services.js"></script>
 </html>

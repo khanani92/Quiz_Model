@@ -1,11 +1,3 @@
-/**
- * Created with JetBrains WebStorm.
- * User: Mudassir
- * Date: 9/22/13
- * Time: 12:20 PM
- * To change this template use File | Settings | File Templates.
- */
-
 
 var sampleApp = angular.module("myApp",[])
     .config(['$routeProvider',function($routeProvider){
@@ -24,6 +16,10 @@ var sampleApp = angular.module("myApp",[])
                  templateUrl:'views/register.html',
                  controller:'register'
              })
+             .when('/signout',{
+                 templateUrl:'views/signout.html',
+                 controller:'signout'
+             })
 
              .when('/error',{
                  templateUrl:'views/error.html'
@@ -35,6 +31,17 @@ var sampleApp = angular.module("myApp",[])
        }]);//Config
 
 sampleApp.controller('navController',function($scope,$location){
+    var id = sessionStorage.id;
+
+    if(!id){
+       console.log("not found"+id)
+       $scope.inBtn = true;
+        $scope.outBtn = false;
+    }else{
+        console.log("found"+id)
+        $scope.inBtn = false;
+        $scope.outBtn = true;
+    }
 
     $scope.go = function (path){
         $location.path(path);
