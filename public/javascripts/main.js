@@ -20,6 +20,10 @@ var sampleApp = angular.module("myApp",[])
                  templateUrl:'views/signout.html',
                  controller:'signout'
              })
+             .when('/learn_pg',{
+                 templateUrl:'views/learn_pg.html',
+                 controller:'learn_pg'
+             })
 
              .when('/error',{
                  templateUrl:'views/error.html'

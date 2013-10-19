@@ -1,7 +1,7 @@
 <div>
 
     <form class="form-signin" name="addUserForm" ng-submit="login.checkSendData()">
-        <h2 class="form-signin-heading">Please Sign In</h2>
+        <h2 class="form-signin-heading" style="color: #000000;">Please Sign In</h2>
         <input type="text" class="input-block-level" placeholder="Email address" ng-model="login.email" ng-minlength="5" ng-pattern="/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/" required>
         <input type="password" class="input-block-level" placeholder="Password" ng-model="login.pass" ng-minlength="5" required>
         <label class="checkbox">
