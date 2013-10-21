@@ -16,7 +16,7 @@
                 <img class="img-circle" src="../img/html5_logo.png" data-src="holder.js/140x140" alt="Generic placeholder image">
                 <h2>HTML5</h2>
                 <p>HTML5 will be the new standard for HTML. The previous version of HTML, HTML 4.01, came in 1999. The web has changed a lot since then. HTML5 is still a work in progress. However, the major browsers support many of the new HTML5 elements and APIs..</p>
-                <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+                <p><a ng-show="user_in" class="btn btn-default">Start Learning &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="img-circle" src="../img/javascript_logo.png" data-src="holder.js/140x140" alt="Generic placeholder image">
@@ -28,7 +28,7 @@
                     JavaScript is programming code that can be inserted into HTML pages.
                     JavaScript code can be executed by all modern web browsers.
                     JavaScript is easy to learn.</p>
-                <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+                <p><a ng-show="user_in" class="btn btn-default" >Start Learning &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="img-circle" src="../img/css3_logo.png" data-src="holder.js/140x140" alt="Generic placeholder image">
@@ -37,10 +37,42 @@
                    This means that you will not have to change existing designs.CSS3 has been split into "modules".
                     It contains the "old CSS specification" (which has been split into smaller pieces).
                     In addition, new modules are added.</p>
-                <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+                <p><a ng-show="user_in" class="btn btn-default" >Start Learning &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
         <h3>Other libraries we Teach </h3>
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="../img/jquery_logo.png" alt="...">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="../img/jqerymobilr_logo.png" alt="...">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="../img/angular_logo.png" alt="...">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="../img/phonegap_logo.png" alt="...">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="../img/mongo_logo.png" alt="...">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-3">
+                <a href="#" class="thumbnail">
+                    <img src="../img/bootstrape_logo.png" alt="...">
+                </a>
+            </div>
+        </div>
     </div>
     <div  ng-show="user_in">welcome</div>
     <div ng-show="user_out"> You are not sign in</div>
