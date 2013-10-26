@@ -3,7 +3,22 @@
         <div>
     <h1>{{message}}</h1>
         <p>After completing the learning session, Test your skill by taking simple and advance quiz. Quiz are completed in such a way to test your skill and </p>
-            <p>locate your weakness in certain area. Quiz are designed in such a way that can test your skill and check what you have learn through our given material.</p>
+        <p>locate your weakness in certain area. Quiz are designed in such a way that can test your skill and check what you have learn through our given material.</p>
+        <p>Each quiz is based on multiple choice questions(MCQ).No of question depend upon its level, There are three major level Beginner, Advance and Expert level.</p>
         </div>
+        <br>
+
+        <div  ng-show="user_in">
+          <ul>
+          <li><a ng-click="go('htmlQuiz_pg')"><h4>HTML5 Quiz.</h4></a></li>
+         <li><a><h4>JavaScript Quiz.</h4></a></li>
+         <li><a><h4>CSS3 Quiz.</h4></a></li>
+          </ul>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-3" ng-show="user_out"><h3>You Should Sign In to Take Quiz.</h3></div>
+        </div>
+
     </div>
 </div>

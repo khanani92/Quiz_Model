@@ -1,0 +1,62 @@
+<div>
+   <div ng-show="user_in">
+       <!---user_in-->
+       <div class="container"><!-- container--->
+           <h2>{{message}}</h2>
+           <div ng-show="info_box" > <!--info_box--->
+          <p>This Quiz contain 20 Question based on MCQ's.You will given 30 min for this quiz, Once you have answered a question you will not be allowed to change
+          <br> its answer after moving to next question by clicking next button.</p>
+           <h3>Topics Included in the Quiz</h3>
+           <ul>
+               <li> Basic HTML5 Tags</li>
+               <li>HTML5 Attributes</li>
+               <li> Advance HTML5 Tags such as Audio/Video and other.</li>
+               <li> HTML5 File Storage</li>
+               <li> HTML5 other API's</li>
+           </ul>
+           <br>
+           <button id="quiz_btn" class="btn btn-primary" ng-click="startQuiz()"> Start Quiz</button>
+           </div><!--info_box--->
+           <div ng-show="quiz_box"><!--quiz_box--->
+               <div ><!-- current_q--->
+                   <p>Q:{{current_q.q}}</p>
+                   <ul style="list-style: none;">
+                       <li><input type="radio" ng-model="u_ans" value="a1"  name="u_a" /> {{current_q.a1}}</li>
+                       <li><input type="radio" ng-model="u_ans" value="a2" name="u_a" /> {{current_q.a2}}</li>
+                       <li><input type="radio" ng-model="u_ans" value="a3" name="u_a" /> {{current_q.a3}}</li>
+                       <li><input type="radio" ng-model="u_ans" value="a4" name="u_a" /> {{current_q.a4}}</li>
+                   </ul>
+               </div><!--current_q--->
+               <p style="color: red">{{err_message}}</p>
+               <button ng-show="prev_btn" class="btn btn-warning" ng-click="change_q('prev')">Previous</button>
+               <button ng-show="next_btn" class="btn btn-success" ng-click="change_q('next')" >Next</button>
+               <button ng-show="result_btn" class="btn btn-primary" ng-click="generate_result()" > Show Result</button>
+           </div><!--quiz_box--->
+       <div ng-show="result_box">
+           <!--result_box--->
+           Here Result will be shown
+           <br>
+           <div class="col-lg-6" ><!--col-lg-6--->
+
+               <div class="progress progress-striped active"><!----->
+                   <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{rite_percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: '{{rite_percentage}}'">
+                       <span class="sr-only">40% Complete (success)</span>
+                   </div><!---progress-bar-->
+               </div><!--progress--->
+           </div><!--col-lg-6--->
+
+       </div><!--result_box--->
+
+     </div><!--container-->
+    </div><!--user_in-->
+
+
+
+    <div ng-show="user_out"><!--user_out-->
+        <div class="row"><!--row-->
+        <div class="col-md-4 col-md-offset-3" ng-show="user_out"><h3>You Should Sign In to Take Quiz.</h3></div>
+    </div><!--row-->
+    </div><!--user_out-->
+
+
+</div>

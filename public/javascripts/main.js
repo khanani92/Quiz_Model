@@ -28,6 +28,11 @@ var sampleApp = angular.module("myApp",[])
                  templateUrl:'views/quizmain_pg.html',
                  controller:'quizmain_pg'
              })
+             .when('/htmlQuiz_pg',{
+                 templateUrl:'views/htmlQuiz_pg.html',
+                 controller:'htmlQuiz_pg'
+             })
+
 
              .when('/error',{
                  templateUrl:'views/error.html'

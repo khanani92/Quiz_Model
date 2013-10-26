@@ -1181,12 +1181,16 @@ pre code {
   }
   .col-md-4 {
     width: 33.33333333333333%;
+      border: solid 1px #ffffff;
   }
   .col-md-5 {
     width: 41.66666666666667%;
+      border: solid 1px #ffffff;
+
   }
   .col-md-6 {
     width: 50%;
+
   }
   .col-md-7 {
     width: 58.333333333333336%;
