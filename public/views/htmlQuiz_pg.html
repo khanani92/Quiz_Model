@@ -38,11 +38,9 @@
            <br>
            <div class="col-lg-6" ><!--col-lg-6--->
 
-               <div class="progress progress-striped active"><!----->
-                   <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="{{rite_percentage}}" aria-valuemin="0" aria-valuemax="100" style="width: '{{rite_percentage}}'">
-                       <span class="sr-only">40% Complete (success)</span>
-                   </div><!---progress-bar-->
-               </div><!--progress--->
+               <small><em>Object (changes type based on value)</em></small>
+               <progress percent="dynamicObject" class="progress-striped active"></progress>
+           <p>You Scored: {{rite_percentage}}%</p>
            </div><!--col-lg-6--->
 
        </div><!--result_box--->

@@ -2,25 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\stylesheets\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\stylesheets\bootstrap.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/bootstrap_1.css" afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap_1.css" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\angular-bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-affix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-transition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap-typeahead.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors\bootstrap.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/htmlQuiz_pg.html" afterPath="$PROJECT_DIR$/public/views/htmlQuiz_pg.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/vendors/htmlQuiz_pg.js" afterPath="$PROJECT_DIR$/public/javascripts/vendors/htmlQuiz_pg.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/learn_pg.html" afterPath="$PROJECT_DIR$/public/views/learn_pg.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/main.js" afterPath="$PROJECT_DIR$/public/javascripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/quizmain_pg.html" afterPath="$PROJECT_DIR$/public/views/quizmain_pg.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/vendors/quizmain_pg.js" afterPath="$PROJECT_DIR$/public/javascripts/vendors/quizmain_pg.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Quiz_Model.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382776429931" ignored="false" />
-    <file path="/main.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382191843605" ignored="false" />
-    <file path="/index.ejs" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382722855844" ignored="false" />
+    <file path="/Dummy.txt" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1383334592013" ignored="false" />
+    <file path="/main.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382864492788" ignored="false" />
+    <file path="/index.ejs" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1383161886516" ignored="false" />
     <file path="$USER_HOME$/Downloads/code_lib/app-showcase-master/app-showcase-master/views/index.ejs" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381415840331" ignored="false" />
     <file path="$PROJECT_DIR$/../../angular_practice/public/views/candidate.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381421476446" ignored="false" />
-    <file path="/main.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382071097738" ignored="false" />
-    <file path="/main_pg.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382073889084" ignored="false" />
+    <file path="/main.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382868843443" ignored="false" />
+    <file path="/main_pg.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1383160738569" ignored="false" />
     <file path="/signup.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1381428513158" ignored="false" />
     <file path="/signin.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382191435254" ignored="false" />
     <file path="/register.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382191478526" ignored="false" />
@@ -45,10 +56,39 @@
     <file path="/learn_pg.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382192198802" ignored="false" />
     <file path="/quizmain_pg.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382376733870" ignored="false" />
     <file path="/bootstrap_1.css" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382375492956" ignored="false" />
-    <file path="/htmlQuiz_pg.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382779362965" ignored="false" />
-    <file path="/htmlQuiz_pg.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382779379863" ignored="false" />
+    <file path="/htmlQuiz_pg.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1383335602592" ignored="false" />
+    <file path="/htmlQuiz_pg.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382786932899" ignored="false" />
     <file path="$PROJECT_DIR$/../../angular_practice/public/javascripts/vendors/candidateController.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382459507640" ignored="false" />
     <file path="/dummy.xml" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382594200007" ignored="false" />
+    <file path="$PROJECT_DIR$/../../OneStop_resturant/views/index.ejs" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382875028252" ignored="false" />
+    <file path="$PROJECT_DIR$/../../OneStop_resturant/public/javascripts/main.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382876806836" ignored="false" />
+    <file path="$PROJECT_DIR$/../../OneStop_resturant/public/javascripts/restaurant_detail.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382858444473" ignored="false" />
+    <file path="/restaurant_detail.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382858430506" ignored="false" />
+    <file path="$PROJECT_DIR$/../../OneStop_resturant/public/javascripts/restaurant_info.json" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382862703141" ignored="false" />
+    <file path="/restaurant_info.json" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382862684454" ignored="false" />
+    <file path="$PROJECT_DIR$/../../OneStop_resturant/routes/index.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382860581213" ignored="false" />
+    <file path="$PROJECT_DIR$/../../OneStop_resturant/public/javascripts/vendors/test.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382879017382" ignored="false" />
+    <file path="$PROJECT_DIR$/../../OneStop_resturant/public/views/main.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382873862810" ignored="false" />
+    <file path="$PROJECT_DIR$/../../OneStop_resturant/public/javascripts/vendors/restaurant_pg.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382877431206" ignored="false" />
+    <file path="$PROJECT_DIR$/../../OneStop_resturant/public/views/restaurant_pg.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382876727876" ignored="false" />
+    <file path="/restaurant_pg.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382876706496" ignored="false" />
+    <file path="/restaurant_pg.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382876666495" ignored="false" />
+    <file path="$PROJECT_DIR$/../../oneStop/index.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382868834809" ignored="false" />
+    <file path="/index.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382868822674" ignored="false" />
+    <file path="$PROJECT_DIR$/../../oneStop/javascript/main.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382868845588" ignored="false" />
+    <file path="$PROJECT_DIR$/../../OneStop_resturant/node_modules/express/node_modules/debug/example/worker.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382872666981" ignored="false" />
+    <file path="$PROJECT_DIR$/../../OneStop_resturant/public/views/cart_pg.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382875558762" ignored="false" />
+    <file path="/cart_pg.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382875558762" ignored="false" />
+    <file path="$PROJECT_DIR$/../../OneStop_resturant/public/javascripts/vendors/cart_pg.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382876324977" ignored="false" />
+    <file path="/cart_pg.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1382876323467" ignored="false" />
+    <file path="$PROJECT_DIR$/../../angularUI -bootstrape_test/javascript/main.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1383157828835" ignored="false" />
+    <file path="$PROJECT_DIR$/../../angularUI -bootstrape_test/public/views/main_pg.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1383161808287" ignored="false" />
+    <file path="/main_pg.html" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1383161375592" ignored="false" />
+    <file path="$PROJECT_DIR$/../../angularUI -bootstrape_test/public/javascripts/vendors/main_pg.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1383161849289" ignored="false" />
+    <file path="$PROJECT_DIR$/../../angularUI -bootstrape_test/views/index.ejs" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1383161952071" ignored="false" />
+    <file path="$PROJECT_DIR$/../../angularUI -bootstrape_test/public/javascripts/vendors/ui-bootstrap.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1383161064425" ignored="false" />
+    <file path="$PROJECT_DIR$/../../angularUI -bootstrape_test/public/javascripts/main.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1383161118908" ignored="false" />
+    <file path="$PROJECT_DIR$/../../angularUI -bootstrape_test/public/javascripts/vendors/ui-bootstrape1.js" changelist="89bdc569-8506-4dd7-8cc6-1e85dd9c48fc" time="1383161543209" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +111,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="40" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
+            <state line="1" column="53" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,34 +120,16 @@
       <file leaf-file-name="services.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="71" selection-start="3128" selection-end="3171" vertical-scroll-proportion="0.0">
+            <state line="85" column="49" selection-start="3087" selection-end="3087" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/main.html">
+      <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="80" selection-start="1682" selection-end="1712" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_pg.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/main_pg.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="185" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quizmain_pg.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/quizmain_pg.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="4" selection-start="67" selection-end="94" vertical-scroll-proportion="0.0">
+            <state line="5" column="77" selection-start="216" selection-end="216" vertical-scroll-proportion="-3.1153846">
               <folding />
             </state>
           </provider>
@@ -116,10 +138,8 @@
       <file leaf-file-name="htmlQuiz_pg.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/views/htmlQuiz_pg.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="194" selection-start="2476" selection-end="2476" vertical-scroll-proportion="0.33224756">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="42" column="45" selection-start="2426" selection-end="2426" vertical-scroll-proportion="0.211838">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,7 +147,16 @@
       <file leaf-file-name="htmlQuiz_pg.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/htmlQuiz_pg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="55" selection-start="4338" selection-end="4338" vertical-scroll-proportion="0.0">
+            <state line="129" column="39" selection-start="4665" selection-end="4680" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signin_pg.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/signin_pg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/javascripts/services.js" />
         <option value="$PROJECT_DIR$/public/views/signout.html" />
         <option value="$PROJECT_DIR$/public/javascripts/vendors/signout_pg.js" />
         <option value="$PROJECT_DIR$/public/javascripts/vendors/main_pg.js" />
@@ -162,8 +190,9 @@
         <option value="$PROJECT_DIR$/public/javascripts/vendors/quizmain_pg.js" />
         <option value="$PROJECT_DIR$/public/views/learn_pg.html" />
         <option value="$PROJECT_DIR$/public/stylesheets/bootstrap_1.css" />
-        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/public/views/quizmain_pg.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/vendors/ui-bootstrap-tpls-0.6.0.min.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/public/javascripts/vendors/htmlQuiz_pg.js" />
         <option value="$PROJECT_DIR$/public/views/htmlQuiz_pg.html" />
@@ -171,10 +200,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="1" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -202,7 +231,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -341,20 +369,21 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../LoginSystem-master/LoginSystem-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/html5-showcase-master/html5-showcase-master" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Cloud_app\reps\Quiz_Model\public\stylesheets" />
       <recent name="C:\Cloud_app\reps\Quiz_Model\public\javascripts\vendors" />
       <recent name="C:\Cloud_app\reps\Quiz_Model\public\img" />
-      <recent name="C:\Cloud_app\reps\Quiz_Model\public\stylesheets" />
       <recent name="C:\Cloud_app\reps\Quiz_Model\public\views" />
       <recent name="C:\Cloud_app\reps\Quiz_Model\public\javascripts" />
     </key>
@@ -412,17 +441,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="1" width="1364" height="726" extended-state="1" />
+    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25132075" sideWeight="0.6572438" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24794623" sideWeight="0.6609589" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34275618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33904108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -494,55 +523,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/views/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="66" selection-start="160" selection-end="160" vertical-scroll-proportion="0.10493827" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/learn_pg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="0" selection-end="436" vertical-scroll-proportion="0.6014898" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap_1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1187" column="32" selection-start="15497" selection-end="15497" vertical-scroll-proportion="0.33114755" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/learn_pg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="35" selection-start="4207" selection-end="4214" vertical-scroll-proportion="1.4605263" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="23" selection-start="819" selection-end="819" vertical-scroll-proportion="0.5796703" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/main_pg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="40" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/quizmain_pg.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="862" selection-end="1011" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/quizmain_pg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="4" selection-start="67" selection-end="94" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="1" column="4" selection-start="67" selection-end="94" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/signin.html">
@@ -550,43 +533,89 @@
         <state line="10" column="97" selection-start="759" selection-end="792" vertical-scroll-proportion="0.55921054" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/bootstrap.min.js">
+    <entry file="file://$PROJECT_DIR$/public/views/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="80" selection-start="1682" selection-end="1712" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="23" selection-start="819" selection-end="819" vertical-scroll-proportion="0.8034682" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0350554" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/signout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+    <entry file="file://$PROJECT_DIR$/public/views/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="53" selection-start="3196" selection-end="3196" vertical-scroll-proportion="0.6123778" />
+        <state line="12" column="57" selection-start="9" selection-end="1080" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/main_pg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/services.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="71" selection-start="3128" selection-end="3171" vertical-scroll-proportion="0.0">
+        <state line="85" column="49" selection-start="3087" selection-end="3087" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/main.html">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="80" selection-start="1682" selection-end="1712" vertical-scroll-proportion="0.0">
+        <state line="1" column="53" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/signin_pg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/ui-bootstrape1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/bootstrap-combined.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="77" selection-start="216" selection-end="216" vertical-scroll-proportion="-3.1153846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/vendors/htmlQuiz_pg.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="55" selection-start="4338" selection-end="4338" vertical-scroll-proportion="0.0">
+        <state line="129" column="39" selection-start="4665" selection-end="4680" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/views/htmlQuiz_pg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="194" selection-start="2476" selection-end="2476" vertical-scroll-proportion="0.33224756">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="42" column="45" selection-start="2426" selection-end="2426" vertical-scroll-proportion="0.211838">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -125,8 +125,30 @@ sampleApp.controller('htmlQuiz_pg',function($scope,$location){
 
                  $scope.quiz_box = false;
                  $scope.result_box = true;
+                    //Calculating Result
                  var riteans_perc = (urite_ans/quiz_model.length)*100;
                  $scope.rite_percentage = riteans_perc;
+
+                     var value = riteans_perc;
+                     var type;
+
+                     if (value < 25) {
+                         type = 'danger';
+                     } else if (value < 50) {
+                         type = 'info';
+                     } else if (value < 75) {
+                         type = 'warning';
+                     } else {
+                         type = 'success';
+                     }
+
+
+                     $scope.dynamicObject = {
+                         value: value,
+                         type: type
+                     };
+
+
                  console.log(riteans_perc);
              }////checking that user have choosen any answer or not
 

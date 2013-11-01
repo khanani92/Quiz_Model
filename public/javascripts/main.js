@@ -1,5 +1,5 @@
 
-var sampleApp = angular.module("myApp",[])
+var sampleApp = angular.module("myApp",['ui.bootstrap'])
     .config(['$routeProvider',function($routeProvider){
 
          $routeProvider
