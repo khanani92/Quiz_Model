@@ -1,0 +1,33 @@
+<div>
+    <div class="container">
+        <!--container-->
+        <div class="col-lg-7"><h2>{{title}}</h2>
+        <form name="addQuestForm"  class="form-signin" ng-submit="checkSendData()">
+
+            <h2 class="form-signin-heading" style="color: #000000;">Please Add Question Here</h2>
+            <p>check the correct answer</p>
+
+            <input type="text" class="input-block-level" placeholder="Question" ng-model="question.q" ng-minlength="4" required>
+            <br>
+            <input type="radio" ng-model="question.r_a" value="a1">
+            <input type="text" class="input-block-level" placeholder="Answer 1" ng-model="question.a1" ng-minlength="3"  required>
+            <br>
+            <input type="radio" ng-model="question.r_a" value="a2">
+            <input type="text" class="input-block-level" placeholder="Answer 2" ng-model="question.a2" ng-minlength="3"  required>
+            <br>
+            <input type="radio" ng-model="question.r_a" value="a3">
+            <input type="text" class="input-block-level" placeholder="Answer 3" ng-model="question.a3" ng-minlength="3"  required>
+            <br>
+            <input type="radio" ng-model="question.r_a" value="a4">
+            <input type="text" class="input-block-level" placeholder="Answer 4" ng-model="question.a4" ng-minlength="3"  required>
+              {{error}}
+
+
+            <button class="btn btn-large btn-success" type="submit" ng-disabled="!addQuestForm.$valid">Add Question</button>
+
+        </form>
+        </div>
+
+    </div><!--container-->
+
+</div>

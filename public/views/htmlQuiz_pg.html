@@ -19,12 +19,12 @@
            </div><!--info_box--->
            <div ng-show="quiz_box"><!--quiz_box--->
                <div ><!-- current_q--->
-                   <p>Q:{{current_q.q}}</p>
+                   <p>Q:{{current_q.question}} ?</p>
                    <ul style="list-style: none;">
-                       <li><input type="radio" ng-model="u_ans" value="a1"  name="u_a" /> {{current_q.a1}}</li>
-                       <li><input type="radio" ng-model="u_ans" value="a2" name="u_a" /> {{current_q.a2}}</li>
-                       <li><input type="radio" ng-model="u_ans" value="a3" name="u_a" /> {{current_q.a3}}</li>
-                       <li><input type="radio" ng-model="u_ans" value="a4" name="u_a" /> {{current_q.a4}}</li>
+                       <li><input type="radio" ng-model="u_ans" value="a1"  name="u_a" /> {{current_q.a_1}}</li>
+                       <li><input type="radio" ng-model="u_ans" value="a2" name="u_a" /> {{current_q.a_2}}</li>
+                       <li><input type="radio" ng-model="u_ans" value="a3" name="u_a" /> {{current_q.a_3}}</li>
+                       <li><input type="radio" ng-model="u_ans" value="a4" name="u_a" /> {{current_q.a_4}}</li>
                    </ul>
                </div><!--current_q--->
                <p style="color: red">{{err_message}}</p>
@@ -34,11 +34,10 @@
            </div><!--quiz_box--->
        <div ng-show="result_box">
            <!--result_box--->
-           Here Result will be shown
+           <h3>Your Result </h3>
            <br>
            <div class="col-lg-6" ><!--col-lg-6--->
 
-               <small><em>Object (changes type based on value)</em></small>
                <progress percent="dynamicObject" class="progress-striped active"></progress>
            <p>You Scored: {{rite_percentage}}%</p>
            </div><!--col-lg-6--->

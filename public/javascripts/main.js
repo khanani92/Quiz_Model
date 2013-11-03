@@ -32,6 +32,10 @@ var sampleApp = angular.module("myApp",['ui.bootstrap'])
                  templateUrl:'views/htmlQuiz_pg.html',
                  controller:'htmlQuiz_pg'
              })
+             .when('/addQuest_pg',{
+                 templateUrl:'views/addQuest_pg.html',
+                 controller:'addQuest_pg'
+             })
 
 
              .when('/error',{
