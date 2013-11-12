@@ -11,27 +11,35 @@ var userSchema = mongoose.Schema({
     u_name : String,
     email: String,
     pass: String
-})
+});
 var QuestionSchema = mongoose.Schema({
     question : String,
     a_1: String,
     a_2: String,
     a_3: String,
     a_4: String,
-    r_a: String
-})
+    r_a: String,
+    q_name: String
+});
+
+var resultSchema = mongoose.Schema({
+    u_id : String,
+    quiz_name: String,
+    userResult: String
+});
 
 var User = mongoose.model('Users',userSchema);
 var Question = mongoose.model('Questions',QuestionSchema);
+var Result = mongoose.model('Results',resultSchema);
 
 
 exports.regUser = function(req,res){
   var u_name = req.body.u_name;
   var email = req.body.email;
   var pass = req.body.pass;
-    console.log(u_name);
-    console.log(email);
-    console.log(pass);
+    //console.log(u_name);
+    //console.log(email);
+    //console.log(pass);
 
 
 
@@ -94,7 +102,8 @@ exports.addQuestion = function(req,res){
         a_2: data.a2,
         a_3: data.a3,
         a_4: data.a4,
-        r_a: data.r_a
+        r_a: data.r_a,
+        q_name:data.q_name
     });
 
     question_info.save(function(err,data){
@@ -104,12 +113,16 @@ exports.addQuestion = function(req,res){
             res.send("Your Question have been saved"+data);
         }
     });//>save
+    console.log(question_info)
     res.send("Data Received of addQuestion");
 }
 
 
 exports.getQuestion = function(req,res){
-    Question.find(function(err,data){
+    var q_name = req.body.q_name;
+    q_name = q_name.toLowerCase();
+    //console.log(q_name);
+    Question.find({ q_name: q_name },function(err,data){
         if (err) {// ...
             console.log('An error has occurred');
 
@@ -123,13 +136,36 @@ exports.getQuestion = function(req,res){
                 res.send("error");
 
             }else{
-                console.log("data == "+data);
+           //     console.log("data == "+data);
                 res.send(data);
             }//else  for data forward
 
         }//Main else
 
     })//FindOne funtionx;
+};
+
+exports.saveResult = function(req,res){
+  var user_result = req.body.riteans_perc;
+  var u_id = req.body.u_id;
+  var quiz_name = req.body.quiz_name;
+    console.log(u_id+"=="+user_result);
+    //make a new collection results were all result will be saves {user_id,quiz_name,Result,date}, When result will be shown
+    //through id we will get all the info of user from users collection.
+    var result_info = new Result({
+        u_id : u_id,
+        quiz_name: quiz_name,
+        userResult: user_result
+    });
+
+    result_info.save(function(err,data){
+        if(err){
+            res.send("Upload Fail"+err);
+        }else{
+            res.send("Your Result have been saved"+data);
+        }
+    });//>save
+    res.send("Result Received");
 };
 
 exports.index = function(req, res){

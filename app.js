@@ -28,10 +28,11 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.post('/regUser',routes.regUser)
-app.post('/loginStudent',routes.loginStudent)
-app.post('/addQuestion',routes.addQuestion)
-app.post('/getQuestion',routes.getQuestion)
+app.post('/regUser',routes.regUser);
+app.post('/loginStudent',routes.loginStudent);
+app.post('/addQuestion',routes.addQuestion);
+app.post('/getQuestion',routes.getQuestion);
+app.post('/saveResult',routes.saveResult)
 
 app.get('/users', user.list);
 

@@ -1,9 +1,30 @@
-sampleApp.controller('htmlQuiz_pg',function($scope,$location,$http){
+sampleApp.controller('htmlQuiz_pg',function($scope,$location,$http,$routeParams){
     var id = sessionStorage.id;
+    var q_id = parseInt($routeParams.q_id,10);
+    var quiz_model;
+    var q_name;
+    switch (q_id){
+        case 1:
+            q_name = "html5"
+            break;
+        case 2:
+            q_name = "javascript"
+            break;
+        case 3:
+            q_name = "css3"
+            break;
+
+    }
+
+
+
+    var riteans_perc ;
     var urite_ans = 0;
     $scope.quiz_box = false;
     $scope.info_box = true;
     $scope.result_box = false;
+
+
     if(!id){
         console.log("not found"+id)
         $scope.user_in = false;
@@ -18,12 +39,13 @@ sampleApp.controller('htmlQuiz_pg',function($scope,$location,$http){
     $scope.startQuiz = function(){
         $scope.quiz_box = true;
         $scope.info_box = false;
-        var quiz_model;
+       // var q_name
 
 
        //Getting Data from server
         $http({
             url:"/getQuestion",
+            data:{q_name:q_name},
             method:"POST"
         }).success(
             function(res,textStatus){
@@ -132,7 +154,7 @@ sampleApp.controller('htmlQuiz_pg',function($scope,$location,$http){
                  $scope.quiz_box = false;
                  $scope.result_box = true;
                  //Calculating Result
-                 var riteans_perc = (urite_ans/quiz_model.length)*100;
+                  riteans_perc = (urite_ans/quiz_model.length)*100;
                  $scope.rite_percentage = riteans_perc;
 
                  var value = riteans_perc;
@@ -158,7 +180,21 @@ sampleApp.controller('htmlQuiz_pg',function($scope,$location,$http){
                  console.log(riteans_perc);
                  }////checking that user have choosen any answer or not
 
-                 }//generate_result();
+                }//generate_result();
+
+                $scope.saveResult = function(){
+                                console.log("Save Result");
+                    $http({
+                        url:"/saveResult",
+                        data:{u_id:id,riteans_perc : riteans_perc,quiz_name:q_name},
+                        method:"POST"
+                    }).success(function(res,textStatus){
+
+                            console.log(res);
+                        }).error(
+                        function(){ alert("Error");}
+                    )//Error
+                }//saveResult()
 
                  var ans_forward = function(id,ans){
                  user_ans.push({q_id:id,u_ans:ans});
@@ -180,6 +216,8 @@ sampleApp.controller('htmlQuiz_pg',function($scope,$location,$http){
     $scope.go = function (path){
         $location.path(path);
     }
-    $scope.message = "HTML5 Quiz";
+    var q_name =  q_name.toUpperCase();
+    $scope.message = q_name+" Quiz";
+
 
 });

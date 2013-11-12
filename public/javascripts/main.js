@@ -28,7 +28,7 @@ var sampleApp = angular.module("myApp",['ui.bootstrap'])
                  templateUrl:'views/quizmain_pg.html',
                  controller:'quizmain_pg'
              })
-             .when('/htmlQuiz_pg',{
+             .when('/htmlQuiz_pg:q_id',{
                  templateUrl:'views/htmlQuiz_pg.html',
                  controller:'htmlQuiz_pg'
              })

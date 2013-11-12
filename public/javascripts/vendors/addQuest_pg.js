@@ -9,7 +9,7 @@ sampleApp.controller('addQuest_pg',function($scope,$location,$http){
         $scope.user_in = true;
         $scope.user_out = false;
     } */
-    $scope.question = {q:null,a1:null,a2:null,a3:null,a4:null,r_a:null}
+    $scope.question = {q:null,a1:null,a2:null,a3:null,a4:null,r_a:null,q_name:null}
     /*$scope.answer_1 = '';
     $scope.answer_2 = '';
     $scope.answer_3 = '';

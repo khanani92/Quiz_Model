@@ -6,14 +6,7 @@
            <div ng-show="info_box" > <!--info_box--->
           <p>This Quiz contain 20 Question based on MCQ's.You will given 30 min for this quiz, Once you have answered a question you will not be allowed to change
           <br> its answer after moving to next question by clicking next button.</p>
-           <h3>Topics Included in the Quiz</h3>
-           <ul>
-               <li> Basic HTML5 Tags</li>
-               <li>HTML5 Attributes</li>
-               <li> Advance HTML5 Tags such as Audio/Video and other.</li>
-               <li> HTML5 File Storage</li>
-               <li> HTML5 other API's</li>
-           </ul>
+
            <br>
            <button id="quiz_btn" class="btn btn-primary" ng-click="startQuiz()"> Start Quiz</button>
            </div><!--info_box--->
@@ -40,6 +33,7 @@
 
                <progress percent="dynamicObject" class="progress-striped active"></progress>
            <p>You Scored: {{rite_percentage}}%</p>
+              <button ng-click="saveResult()" class="btn btn-primary">Save Result</button> <button class="btn btn-danger">Exit</button>
            </div><!--col-lg-6--->
 
        </div><!--result_box--->
