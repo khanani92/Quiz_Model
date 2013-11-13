@@ -168,6 +168,33 @@ exports.saveResult = function(req,res){
     res.send("Result Received");
 };
 
+exports.getUserInfo = function(req,res){
+    var u_id = req.body.u_id;
+    User.findOne({ _id: u_id },function(err,data){
+        if (err) {// ...
+            console.log('An error has occurred');
+
+            res.send('An error has occurred'+err);
+
+        }
+        else {
+            if(!data){
+                console.log('record not found');
+
+                res.send("error");
+
+            }else{
+                console.log("data == "+data);
+                res.send(data);
+            }//else  for data forward
+
+        }//Main else
+
+    })//FindOne funtionx
+
+}//getUserInfo()
+
+
 exports.index = function(req, res){
   res.render('index', { title: 'Quiz Model' });
 };

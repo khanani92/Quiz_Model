@@ -47,17 +47,28 @@ var sampleApp = angular.module("myApp",['ui.bootstrap'])
 
        }]);//Config
 
-sampleApp.controller('navController',function($scope,$location){
+sampleApp.controller('navController',function($scope,$location,$http){
     var id = sessionStorage.id;
 
     if(!id){
-       console.log("not found"+id)
+       //console.log("not found"+id)
        $scope.inBtn = true;
         $scope.outBtn = false;
+        $scope.message = "";
     }else{
-        console.log("found"+id)
+        //console.log("found"+id)
         $scope.inBtn = false;
         $scope.outBtn = true;
+        $http({
+            url:"/getUserInfo",
+            data:{u_id:id},
+            method:"POST"
+        }).success(function(res,textStatus){
+                $scope.message = res.u_name;
+
+            }).error(
+            function(){ console.log("Error");}
+        )//Error
     }
 
     $scope.go = function (path){

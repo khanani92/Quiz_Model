@@ -35,6 +35,7 @@
                                   <li><a href="#contact">Contact</a></li>
                               </ul>
                               <div class="navbar-form navbar-right">
+                                <a ng-click="go('/signin')"> <span style="color: #ffffff; font-size: 18px">Welcome, {{message}}</span></a>
                               <button ng-show="inBtn" ng-click="go('/signin')" class="btn btn-success">Sign in</button>
                               <button ng-show="outBtn" ng-click="go('/signout')" class="btn btn-warning">Sign out</button>
                               </div>

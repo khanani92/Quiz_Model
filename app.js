@@ -32,8 +32,8 @@ app.post('/regUser',routes.regUser);
 app.post('/loginStudent',routes.loginStudent);
 app.post('/addQuestion',routes.addQuestion);
 app.post('/getQuestion',routes.getQuestion);
-app.post('/saveResult',routes.saveResult)
-
+app.post('/saveResult',routes.saveResult);
+app.post('/getUserInfo',routes.getUserInfo);
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
