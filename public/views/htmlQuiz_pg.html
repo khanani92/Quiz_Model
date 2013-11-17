@@ -33,7 +33,8 @@
 
                <progress percent="dynamicObject" class="progress-striped active"></progress>
            <p>You Scored: {{rite_percentage}}%</p>
-              <button ng-click="saveResult()" class="btn btn-primary">Save Result</button> <button class="btn btn-danger">Exit</button>
+              <button ng-click="saveResult()" class="btn btn-primary">Save Result</button> <button class="btn btn-danger" ng-click="go('/takeQuiz_pg')">Retake/Exit</button>
+               <p>You can watch your result any time at share result page </p>
            </div><!--col-lg-6--->
 
        </div><!--result_box--->

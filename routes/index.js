@@ -1,6 +1,6 @@
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/quiz_model');
+mongoose.connect('mongodb://quiz_model:a1234567@ds053798.mongolab.com:53798/quiz_model');
 var db = mongoose.connection;
 db.on('error',console.error.bind(console,'connection error'));
 db.once('open',function callback(){
@@ -25,7 +25,8 @@ var QuestionSchema = mongoose.Schema({
 var resultSchema = mongoose.Schema({
     u_id : String,
     quiz_name: String,
-    userResult: String
+    userResult: String,
+    date:String
 });
 
 var User = mongoose.model('Users',userSchema);
@@ -150,12 +151,15 @@ exports.saveResult = function(req,res){
   var u_id = req.body.u_id;
   var quiz_name = req.body.quiz_name;
     console.log(u_id+"=="+user_result);
+    var myDate=new Date();
+
     //make a new collection results were all result will be saves {user_id,quiz_name,Result,date}, When result will be shown
     //through id we will get all the info of user from users collection.
     var result_info = new Result({
         u_id : u_id,
         quiz_name: quiz_name,
-        userResult: user_result
+        userResult: user_result,
+        date:myDate
     });
 
     result_info.save(function(err,data){
@@ -193,6 +197,32 @@ exports.getUserInfo = function(req,res){
     })//FindOne funtionx
 
 }//getUserInfo()
+
+exports.showResult = function(req, res){
+
+    var u_id = req.body.u_id;
+    Result.find({ u_id: u_id },function(err,data){
+        if (err) {// ...
+            console.log('An error has occurred');
+
+            res.send('An error has occurred'+err);
+
+        }
+        else {
+            if(!data){
+                console.log('record not found');
+
+                res.send("error");
+
+            }else{
+                //     console.log("data == "+data);
+                res.send(data);
+            }//else  for data forward
+
+        }//Main else
+
+    })//FindOne funtionx;
+};
 
 
 exports.index = function(req, res){

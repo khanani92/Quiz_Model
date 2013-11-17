@@ -36,6 +36,14 @@ var sampleApp = angular.module("myApp",['ui.bootstrap'])
                  templateUrl:'views/addQuest_pg.html',
                  controller:'addQuest_pg'
              })
+             .when('/about_pg',{
+                 templateUrl:'views/about_pg.html',
+                 controller:'about_pg'
+             })
+             .when('/shareResult_pg',{
+                 templateUrl:'views/shareResult_pg.html',
+                 controller:'shareResult_pg'
+             })
 
 
              .when('/error',{
@@ -51,12 +59,12 @@ sampleApp.controller('navController',function($scope,$location,$http){
     var id = sessionStorage.id;
 
     if(!id){
-       //console.log("not found"+id)
+       console.log("not found"+id)
        $scope.inBtn = true;
         $scope.outBtn = false;
         $scope.message = "";
     }else{
-        //console.log("found"+id)
+        console.log("found"+id)
         $scope.inBtn = false;
         $scope.outBtn = true;
         $http({
